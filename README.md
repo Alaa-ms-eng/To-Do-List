@@ -1,14 +1,58 @@
-# React + Vite
+# To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple task management web application built with **React** and **Vite**. This project provides an interactive interface for organizing everyday tasks.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add new tasks (empty entries are ignored)
+- Delete tasks
+- Move tasks up or down to change their order
+- Manage tasks interactively using React state
 
-## React Compiler
+> Tasks are stored in memory and are not saved after refreshing the page.
 
+## Tech Stack
+
+- React
+- JavaScript (JSX)
+- CSS
+- Vite
+
+## Getting Started
+
+**Prerequisites:** Node.js and npm.
+
+Run these commands:
+
+```bash
+git clone https://github.com/Alaa-ms-eng/To-Do-List.git
+cd To-Do-List
+npm install
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## Project Structure
+
+```text
+src/
+├── App.jsx
+├── ToDoList.jsx
+├── index.css
+└── main.jsx
+```
+
+## What I Practiced
+
+This project helped me practice React functional components, the `useState` hook, event handling, input validation, array operations, and rendering lists.
+
+## Author
+
+**Alaa Mohammed**  
+Computer Science Student
+
+[GitHub Profile](https://github.com/Alaa-ms-eng)
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
 ## Expanding the ESLint configuration
